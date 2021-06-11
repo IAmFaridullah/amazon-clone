@@ -1,0 +1,43 @@
+.checkout {
+    display: flex;
+    margin: 0px 10px;
+    padding: 20px;
+    background-color: rgb(234, 237, 237);
+}
+
+.checkout__left {
+    width: 70%;
+    padding: 5px 15px 15px 15px;
+}
+
+.checkout__left .checkout__title {
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(197, 196, 196);
+}
+
+.checkout__right {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 30%;
+    max-height: 120px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(24, 16, 16, 0.16) 0px 1px 4px;
+}
+
+.checkout__right *:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.checkout__right .checkbox span {
+    margin-left: 8px;
+}
+
+.checkout__right .proceed__button {
+    padding: 10px;
+    background-color: #FF9900;
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+    font-size: 15px;
+}

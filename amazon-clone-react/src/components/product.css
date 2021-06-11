@@ -1,0 +1,52 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    background-color: white;
+    color: black;
+    z-index: 3;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.product__info{
+    padding: 8px 20px 10px 15px;
+}
+
+.product__title {
+    /* font-size: 20px; */
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product__price {
+    font-size: 30px;
+}
+
+.product__rating {
+    color: goldenrod;
+}
+
+.product__image {
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+}
+
+
+
+.cart__button {
+    padding: 8px ;
+    width: 100%;
+    background-color: #FF9900;
+    border: 2px solid #db8708;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: auto;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.payment__container {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.payment__container > *:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.section {
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.section__title {
+    width: 20%;
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+.section__detail {
+    padding: 20px;
+    width: 80%;
+    /* border: 2px solid green; */
+}
+
+.payment__container > .section:first-child > .section__detail  {
+    margin-left: 30px;
+}
+
+

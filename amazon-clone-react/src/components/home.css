@@ -1,0 +1,18 @@
+.home {
+    max-width: 100wh;
+}
+
+.banner {
+    margin-bottom: -350px;
+}
+
+
+.banner > img{
+    width: 100%;
+}
+
+.home__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px 10px;
+}
